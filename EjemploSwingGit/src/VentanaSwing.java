@@ -1,8 +1,8 @@
 import java.awt.BorderLayout;
-
+import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
-
+import java.awt.Panel;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -19,7 +19,7 @@ import javax.swing.JTabbedPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
-
+import javax.swing.text.InternationalFormatter;
 
 public class VentanaSwing extends JFrame{
 	
@@ -44,7 +44,7 @@ public class VentanaSwing extends JFrame{
 		
 		JMenu menuFichero = new JMenu("Fichero");
 		barraMenu.add(menuFichero);
-
+		
 		JMenuItem itemMostrar = new JMenuItem("Mostrar"); //texto
 		JMenuItem itemLimpiar = new JMenuItem("Limpiar");
 		JMenuItem itemSalir = new JMenuItem("Exit");
