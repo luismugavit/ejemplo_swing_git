@@ -44,7 +44,7 @@ public class VentanaSwing extends JFrame{
 		
 		JMenu menuFichero = new JMenu("Fichero");
 		barraMenu.add(menuFichero);
-		JMenuItem itemA = new JMenuItem("A");
+
 		JMenuItem itemMostrar = new JMenuItem("Mostrar"); //texto
 		JMenuItem itemLimpiar = new JMenuItem("Limpiar");
 		JMenuItem itemSalir = new JMenuItem("Exit");
