@@ -50,7 +50,7 @@ public class VentanaSwing extends JFrame{
 		menuFichero.add(itemMostrar);
 		menuFichero.add(itemLimpiar);
 		menuFichero.add(itemSalir);
-		
+		//comentario prueba
 		JPanel mainPanel = new JPanel(new BorderLayout());
 		JPanel mainPanel2 = new JPanel(new BorderLayout());
 		JPanel mainPanel3 = new JPanel(new BorderLayout());
@@ -149,3 +149,4 @@ public class VentanaSwing extends JFrame{
 	
 
 }
+
