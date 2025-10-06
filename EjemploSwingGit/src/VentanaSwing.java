@@ -78,7 +78,7 @@ public class VentanaSwing extends JFrame{
 		infoAdiPanel.add(comboCaja);
 		
 		JPanel generoPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
-		generoPanel.setBorder(BorderFactory.createTitledBorder("Genero"));
+		generoPanel.setBorder(BorderFactory.createTitledBorder("Genero")); //
 		JRadioButton botonM = new JRadioButton("Masculino");
 		JRadioButton botonF = new JRadioButton("Femenino");
 		JRadioButton botonO = new JRadioButton("Otro");
@@ -146,5 +146,6 @@ public class VentanaSwing extends JFrame{
 		setVisible(true);
 		
 	}
+	
 
 }
